@@ -1,0 +1,146 @@
+<script type="text/javascript" src="../js/geranota.js"></script>
+<form name="form">
+	<div class="panel panel-default" style="width: 95%; margin-left:2.5%;">
+		<div class="panel-heading  hidden-print">
+			<h3 class="panel-title text-center">Exame de Graduação</h3>
+			<span class="glyphicon glyphicon-ok pull-right printbar spanbtn btn-lg" title="Calcular" onClick="submitForm();">
+			</span>
+			<span class="glyphicon glyphicon-print pull-right printbar spanbtn btn-lg" onClick="window.print()">
+			</span>
+			<span class="glyphicon glyphicon-chevron-left pull-left printbar spanbtn btn-lg" onClick="window.history.go(-1)">
+			</span>
+		</div>
+		<div class="panel-body filter-content page" id="printelement">
+			<div class="row">
+				<div class="col-md-12">
+					<img id="paperlogo" src="<?php echo $this->baseUrl(); ?>/img/ico128.png" />
+				</div>
+				<div class="col-md-12">
+					<h3 class="text-center printtitle">Exame Para Graduação <?php echo $this->grad; ?></h3>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<label class="control-label">Nome:</label>
+					<input type="text" class="input-nome-cab" />
+				</div>
+				<div class="col-md-4">
+					<label class="control-label">Nota:</label>
+					<input type="text" class="input-nota-cab" id="notafinal" />
+				</div>
+			</div>
+			<div class="row">
+				<h4 class="text-center printtitle">Questões Teóricas</h4>
+				<table class="table table-bordered" id="teoria">
+					<thead>
+						<tr>
+							<td colspan="2" class="techtheory"></td>
+							<td class="nota"><h5>Nota</h5></td>
+							<td class="obstheory"><h5>Observações</h5></td>
+						</tr>	
+					</thead>
+					<tbody class="tb">
+						<tr>
+							<td colspan="2">Fundamentos Básicos</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+						<tr>
+							<td colspan="2">História do Judo</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+						<tr>
+							<td colspan="2">Vocabulário</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+						<tr>
+							<td rowspan="7">Fundamentos</td>
+							<td>Rei Ho</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+						<tr>
+							<td>Shizei</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+						<tr>
+							<td>Shintai</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+						<tr>
+							<td>Ukemi</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+						<tr>
+							<td>Kumi Kata</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+						<tr>
+							<td>Kuzushi</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+						<tr>
+							<td>Tai Sabaki</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+						<tr>
+							<td colspan="2">Teoria de Arbitragem</td>
+							<td>
+	                    		<input type="text" class="input-nota" name="notateo" />
+		                    </td>
+		                    <td>
+		                    	<input type="text" class="input-obs" />
+		                    </td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		

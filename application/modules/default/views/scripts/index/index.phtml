@@ -1,0 +1,31 @@
+<div>
+  <img src="<?php echo $this->baseUrl();?>/img/logo.png" style="margin-top:3%;margin-left: 37%;width:350px;">
+  <h1 class="text-center" style="margin-top: 0; margin-left: 2%;font-size:5em;">Bem Vindo</h1>
+</div>
+<div class="modal fade" id="loginModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="height:50px;">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      </div>
+      <div class="modal-body">
+      	<div class="wrapper">
+          <form class="form-signin">       
+            <h2 class="form-signin-heading text-center">DojoSys</h2>
+            <div class="input-group">
+              <span class="input-group-addon span-user"><span class="glyphicon glyphicon-user"></span></span>
+              <input type="text" class="form-control" name="username" placeholder="Usuário" required autofocus="" />
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon span-pass"><span class="glyphicon glyphicon-lock"></span></span>
+              <input type="password" class="form-control" name="password" placeholder="Senha" required />      
+            </div>
+            <label class="checkbox">
+              <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+            </label>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+          </form>
+        </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
