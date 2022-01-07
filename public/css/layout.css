@@ -1,0 +1,354 @@
+@CHARSET "UTF-8";
+/**
+ * @author: Gustavo Guimarães
+ * @data: 16/11/2012
+ * @last modified:
+ */
+body{
+	letter-spacing: 0.06em;
+}
+
+section{
+	height: 600px;
+}
+
+img#logo{
+	width: 130px;
+	margin-top: -15px;
+}
+
+#btn-login{
+	margin-top: 18%;
+}
+
+div#avatar{
+	float: left;
+	width: 145px!important;
+	margin-bottom: 2%;
+}
+
+div#avatar img{
+	border-radius: 5px;
+	-webkit-box-shadow: -1px 0px 14px 0px rgba(50, 50, 50, 0.56);
+	   -moz-box-shadow: -1px 0px 14px 0px rgba(50, 50, 50, 0.56);
+			box-shadow: -1px 0px 14px 0px rgba(50, 50, 50, 0.56);
+}
+
+.stats .col-md-2{
+	width: 21%!important;
+}
+
+#imgInp{
+	display: none;
+}
+
+#img_space{
+	cursor: pointer;
+}
+
+div.form-content{
+	width:80%;
+	margin-left: 5%;
+}
+
+div.top-form-content{
+	width:98%;
+	margin-left: 2%;
+}
+
+div.filter-content .col-md-2{
+	width: 14%;
+}
+
+img#calendar{
+	width: 24px;
+}
+
+span#spanclick{
+	cursor: pointer;
+}
+
+button.formul{
+	margin-right: 0.5%;
+}
+
+#ui-datepicker-div { font-size: 10px; } 
+
+.form-group .input-sm{
+	height: 25px;
+}
+
+.btnbar{
+	margin-top: -25px;
+}
+
+th.col-delete, td.col-delete{
+	width: 90px !important;
+}
+
+.table-header{
+	margin: 0 0;
+}
+.table-content{
+	margin: 5px 1px;
+	font-weight: normal;
+}
+
+.autocompletar li{
+	list-style: none;
+}
+
+.progress{
+	margin-bottom: 5px!important;
+}
+
+#pontoE{
+	background-image: -webkit-linear-gradient(top, #fcea44 0%, #efd109 100%);
+  	background-image:      -o-linear-gradient(top, #fcea44 0%, #efd109 100%);
+  	background-image: -webkit-gradient(linear, left top, left bottom, from(#fcea44), to(#efd109));
+  	background-image:         linear-gradient(to bottom, #fcea44 0%, #efd109 100%);
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcea44', endColorstr='#ffefd109', GradientType=0);
+  	background-repeat: repeat-x;
+}
+
+#goBack{
+	display: none;
+}
+
+#btn_in_ativ{
+	display: none;
+}
+
+/**
+ * CSS PARA LOGIN
+ **/
+ #loginModal .modal-dialog  {width:40%;}
+.wrapper {	
+  	margin:30px 10px 30px 10px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 5px;  
+}
+.form-signin-heading,
+.checkbox {
+  margin-bottom: 30px;
+}
+
+.checkbox{
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+&:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-top: 0px;
+  border-top-right-radius: 0;
+}
+
+span.span-user{
+ 	border-bottom-left-radius: 0;
+}
+span.span-pass{
+	border-top-left-radius: 0;
+}
+
+/**
+ *  CSS CONTROLE DE MENSALIDADE
+ **/
+.caption{
+	padding-top: 2px!important;
+	padding-bottom: 2px!important;
+}
+
+.thumbnail-mensalidade{
+	height: 165px;
+	margin-bottom: 15px!important;
+} 
+
+.col-md-3-mensalidade{
+	padding-left: 7.5px!important;
+	padding-right: 7.5px!important;
+}
+
+.icon_pagamento{
+	margin-left:37%;
+	margin-bottom:15px;
+	width:60px;
+}
+
+/**
+ *  CSS GERAR MAPA 
+ **/
+#map_wrapper {
+    height: 530px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
+}
+/**
+ *	CSS CONTROLE DE PONTOS
+ **/
+
+#table-pontos{
+	width: 90%; margin-left: 4%;
+}
+
+#input-pontos,#input-pontosesp{
+	width: 30%;
+}
+
+#btn-concluir{
+	display: none;
+}
+
+/**
+ * CSS GERAR EXAME DE FAIXA
+ */
+.faixa{
+	width: 150px;
+	cursor: pointer;
+}
+
+.printbar{
+	margin-top: -30px;
+}
+
+.spanbtn{
+	cursor: pointer;
+}
+
+#paperlogo{
+	margin-left:45%; 
+	width:80px;
+}
+
+.page{
+	width: 93%;
+	min-height: 29.7cm;
+	margin-left: 3%;
+	letter-spacing: 0.07em;
+}
+
+.tb{ font-size: 10pt; }
+
+.techtheory{ width: 16%; }
+
+.techprat{ width: 6%; }
+
+.techseq{ width: 8%; }
+
+.nota{ width: 2%; }
+.nota_prat { width: 2%; }
+
+.obstheory{ width: 36%;}
+
+.obsprat{ width: 20%; }
+
+.obsseq{ width: 18%; } 
+
+.input-nome-cab{ width: 100%; }
+
+.input-nota-cab{ width: 100%; height: 20px; border: 0; }
+
+.input-nome{ width: 100%; }
+
+.input-nota{ width: 100%; height: 20px; border: 0; }
+
+.input-obs{ width: 100%; height: 20px; border: 0; }
+
+/*==============================================*
+ *				CSS MEDIA PRINT					*
+ *==============================================*/
+@media print{
+	/**
+	 * CSS PARA IMPRIMIR TABELA DE CONSULTA
+	 */
+	.panel{
+		width: 20cm!important;
+	}
+	.printable-list{
+		width: 19cm!important;
+		min-height: 29.7cm;
+		letter-spacing: 0.05em;
+	}
+	.table-header{
+		font-size: 1em!important;
+	}
+	.table-content{
+		font-size: 0.7em!important;
+	}
+	.name_column{
+		max-width: 11%;
+	}
+	.other_column{
+		max-width: 6%;
+	}
+
+	/**
+	 *	CSS PARA EXAME
+	 */
+	#paperlogo{ margin-left: 38%; }
+
+	.printtitle{ margin-left: -5%; }
+
+	.page{
+		width: 21cm;
+		min-height: 29.7cm;
+		margin-left: 0cm;
+		letter-spacing: 0.07em;
+	}
+
+	#teoria{ width: 20cm; }
+
+	.tb{ font-size: 9pt; }
+
+	.techtheory{ width: 5cm; }
+
+	.techprat{ width: 4cm; }
+
+	.techseq{ width: 6.5cm; }
+	
+	.nota{ width: 0.8cm; }
+
+	.nota_prat{ width: 0.5cm; }
+
+	.obstheory{ width: 11.5cm; }
+
+	.obsprat{ width: 11.5cm; }
+
+	.obsseq{ width: 9.5cm; }
+
+	.input-nome-cab{ width: 80%; height: 22px; border: 0;}
+
+	.input-nota-cab{ width: 20%; height: 22px; border: 0;}
+
+	.input-nome{ width: 100%; height: 20px; border: 0;}
+
+	.input-nota{ width: 100%; height: 20px; border: 0; }
+
+	.input-obs{ width: 100%; height: 20px; border: 0; }
+}
+
